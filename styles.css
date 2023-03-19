@@ -1,0 +1,178 @@
+.wrp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+.keyErper{
+  height: 380px;
+  border-radius: 15px;
+  background: rgb(18, 18, 18);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr;
+
+}
+.headerbody{
+  display: flex;
+  color: #ddd;
+  justify-content: space-between;
+  align-items: center;
+}
+.keybtn{
+  width: 50px;
+  border-radius: 20px;
+  background: #494949;
+  padding: 7px;
+  margin-left: 10px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.indikateer{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  right: 5px;
+  /* left: 5px; */
+}
+.range{
+  color: #ddd;
+  margin-left: 10px;
+}
+.whitekeyWrp{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  grid-gap: 5px;
+  height: 100%;
+}
+
+.whitekeyWrp>div{
+  background: #fff;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 15px;
+  cursor: pointer;
+  position: relative;
+}
+.whitekeyWrp>div:hover{
+  background: #ddd;
+}
+.blackkey{
+  background: linear-gradient(#333, #000);
+  color: #949494;
+  position: absolute;
+  top: 0;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  left:-20px;
+  height: 140px;
+  width: 40px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 10px;
+
+}
+.blackkey:hover{
+  box-shadow: inset -5px -10px 10px rgba(255,255,255,0.1);
+  background:linear-gradient(to bottom, #000, #434343);
+}
+.wrp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+.keyErper{
+  height: 380px;
+  border-radius: 15px;
+  background: rgb(18, 18, 18);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr;
+
+}
+.headerbody{
+  display: flex;
+  color: #ddd;
+  justify-content: space-between;
+  align-items: center;
+}
+.keybtn{
+  width: 50px;
+  border-radius: 20px;
+  background: #494949;
+  padding: 7px;
+  margin-left: 10px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.indikateer{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  right: 5px;
+  /* left: 5px; */
+}
+.range{
+  color: #ddd;
+  margin-left: 10px;
+}
+.whitekeyWrp{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  grid-gap: 5px;
+  height: 100%;
+}
+
+.whitekeyWrp>div{
+  background: #fff;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 15px;
+  cursor: pointer;
+  position: relative;
+}
+.whitekeyWrp>div:hover{
+  background: #ddd;
+}
+.blackkey{
+  background: linear-gradient(#333, #000);
+  color: #949494;
+  position: absolute;
+  top: 0;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  left:-20px;
+  height: 140px;
+  width: 40px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 10px;
+
+}
+.blackkey:hover{
+  box-shadow: inset -5px -10px 10px rgba(255,255,255,0.1);
+  background:linear-gradient(to bottom, #000, #434343);
+}
